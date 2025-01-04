@@ -7,6 +7,6 @@
 Just download the files and put them in MiSide/MiSideFull_Data
 ## Using
 `unity_ost.py file.assets`  
-or
+or  
 `unity_ost_for_all.bat`  
 .wav files will be extracted to Out folder.
