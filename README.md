@@ -4,7 +4,7 @@
 - [UnityPy](https://pypi.org/project/UnityPy)
 
 ## Installation
-Just download the files and put them in MiSide/MiSideFull_Data
+Just download the files and put them in Game/Game_Data(for example MiSide/MiSideFull_Data)
 ## Using
 `unity_ost.py file.assets`  
 or  
