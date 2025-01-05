@@ -1,4 +1,5 @@
 @echo off
-for %%f in (*.assets) do python unity_ost.py "%%f"
+for %%i in (*.assets) do  set files=!files! "%%i"
+python unity_ost.py %files%
 echo Done!
 pause
