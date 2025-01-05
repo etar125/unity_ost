@@ -17,7 +17,8 @@ def unpack(file_name : str):
                 with open(os.path.join("Out", name), "wb") as f:
                     f.write(data)
 
-os.makedirs("Out", exist_ok=True)
-for file in sys.argv[1:]:
-    print("Unpacking file \"" + file + "\"...")
-    unpack(file)
+if __name__=="__main__":
+    os.makedirs("Out", exist_ok=True)
+    for file in sys.argv[1:]:
+        print("Unpacking file \"" + file + "\"...")
+        unpack(file)
